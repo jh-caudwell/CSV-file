@@ -1,0 +1,4 @@
+Test,Value,Min,Max,Pass
+Glycol_System_Pressure,114,85,115,Yes
+Raw_Water_Pressure,71,40,60,No
+Lube_System_Pressure,-18,20,40,No
