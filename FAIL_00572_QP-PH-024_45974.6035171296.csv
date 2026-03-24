@@ -1,0 +1,19 @@
+Export 00572 QP-PH-024 13 11 20,,,,,,,
+FAIL_00572_QP-PH-024_45974.6035171296,,,,,,,
+,,,,,,,
+Section,Parameter,Cadet Name,Units,Measured,Min,Max,P/F
+,ENG_SPD,Engine Speed,rpm,4000,3985,4015,PASS
+Performance,DYN_SPD,Dyno Speed,rpm,4000,3985,4015,PASS
+,TORQUE,Loadcell Torque,Nm,500.7,487.6,539,PASS
+,BRK_PWR,Power,kW,209.7,210,225.8,FAIL
+,FUEL_RATE,Measured Mass Flow,g/sec,14.24,13.55,14.95,PASS
+,BSFC,Measured SFC,g/kw-hr,244.74,232.6,244.6,FAIL
+Air,INT_MNF_P,Engine Inlet Manifold Pressure,KPA,289,275.6,304.5,PASS
+,CMP_IN_T,Cell Ambient Temp,DEG_C,20,0,35,PASS
+,INT_MNF_T,Engine Inlet Manifold Temp,DEG_C,40,40,60,FAIL
+Raw Water,RW_PMP_IN_P,Water In Engine WP1,bar,0.4,,,
+,RW_PMP_IN_T,Engine Water In WT1,DEG_C,22,15,35,PASS
+Glycol,TS_OT_T,Engine Coolant Temp,DEG_C,86,80.8,91.2,PASS
+Oil,OIL_FLT_OT_P,Engine Oil Pressure,KPA,655,541,747,PASS
+,OIL_FLT_OT_T,Engine Oil Temp,DEG_C,95,94,116.6,PASS
+,FUEL_FLT_OT_T,Engine Fuel Temp,DEG_C,37,10,46,PASS

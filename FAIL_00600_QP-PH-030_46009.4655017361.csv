@@ -1,0 +1,19 @@
+Export 00600 QP-PH-030 18 12 20,,,,,,,
+FAIL_00600_QP-PH-030_46009.4655017361,,,,,,,
+,,,,,,,
+Section,Parameter,Cadet Name,Units,Measured,Min,Max,P/F
+,ENG_SPD,Engine Speed,rpm,0,3985,4015,FAIL
+Performance,DYN_SPD,Dyno Speed,rpm,0,3985,4015,FAIL
+,TORQUE,Loadcell Torque,Nm,0,487.6,539,FAIL
+,BRK_PWR,Power,kW,0,210,225.8,FAIL
+,FUEL_RATE,Measured Mass Flow,g/sec,0,13.55,14.95,FAIL
+,BSFC,Measured SFC,g/kw-hr,0,232.6,244.6,FAIL
+Air,INT_MNF_P,Engine Inlet Manifold Pressure,KPA,0,275.6,304.5,FAIL
+,CMP_IN_T,Cell Ambient Temp,DEG_C,0,0,35,FAIL
+,INT_MNF_T,Engine Inlet Manifold Temp,DEG_C,0,40,60,FAIL
+Raw Water,RW_PMP_IN_P,Water In Engine WP1,bar,0,,,
+,RW_PMP_IN_T,Engine Water In WT1,DEG_C,0,15,35,FAIL
+Glycol,TS_OT_T,Engine Coolant Temp,DEG_C,0,80.8,91.2,FAIL
+Oil,OIL_FLT_OT_P,Engine Oil Pressure,KPA,0,541,747,FAIL
+,OIL_FLT_OT_T,Engine Oil Temp,DEG_C,0,94,116.6,FAIL
+,FUEL_FLT_OT_T,Engine Fuel Temp,DEG_C,0,10,46,FAIL
